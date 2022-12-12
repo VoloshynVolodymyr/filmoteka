@@ -1,0 +1,41 @@
+.button_change_theme--container {
+  position: absolute;
+  bottom: -5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button_change_theme {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+}
+
+.button_light_theme {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/3073/3073665.png');
+  width: 30px;
+  height: 30px;
+}
+
+.button_dark_theme {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/7269/7269735.png');
+  width: 30px;
+  height: 30px;
+}
+
+.dark_theme {
+  background-color: rgba(12, 12, 11, 1);
+  //   color: $submain-white-color;
+}
+
+.light_theme {
+  background: white;
+  color: $main-black-color;
+}
