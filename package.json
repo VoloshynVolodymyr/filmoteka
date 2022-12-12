@@ -2,7 +2,7 @@
   "name": "film-library-project",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://vitaliylev.github.io/film-library-project",
+  "homepage": "https://VoloshynVolodymyr.github.io/filmoteka",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/index.html --public-url /film-library-project/"
