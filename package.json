@@ -5,7 +5,7 @@
   "homepage": "https://VoloshynVolodymyr.github.io/filmoteka/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/index.html --public-url /film-library-project/"
+    "build": "parcel build src/index.html --public-url /filmoteka/"
   },
   "repository": {
     "type": "git",
